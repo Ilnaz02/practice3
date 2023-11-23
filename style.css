@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "SYN Nova";
+  font-style: normal;
+  font-weight: 900;
+  src: url("fonts/SYNNova-Regular.otf");
+}
+
+
+body {
+  background-color: rgb(214, 214, 214);
+}
+
+.container {
+  width: 400px;
+  height: 430px;
+  margin: 80px auto;
+  border-radius: 10px;
+  background-color: rgb(214, 214, 214);
+
+  box-shadow: 5px 5px 10px #b6a9a9, -5px -5px 10px #ffffff;
+}
+
+.cal-box {
+  width: 400px;
+  height: 430px;
+  padding-top: 25px;
+}
+
+
+p {
+  border: none;
+  outline: none;
+  color: black;
+  height: 30px;
+  width: 350px;
+  text-align: right;
+  font-family: "SYN Nova";
+  font-weight: 600;
+  padding-top: 10px;
+  margin: 1px 25px;
+  background: transparent;
+
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff;
+}
+
+button {
+  margin: 15px 0 0 5px;
+  width: 42px;
+  height: 42px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: rgb(214, 214, 214);
+
+  box-shadow: 5px 5px 10px #b6acac, -5px -5px 10px #faf4f4;
+
+}
+
+button:active {
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+
+#btns {
+  display: flex;
+  flex-direction: column;
+}
+
+#topButtons {
+  justify-content: center;
+  margin: auto;
+}
+
+#bottomButtons {
+  margin: auto;
+  width: 200px;
+}
+
+.operator {
+  background-color: black;
+  color: #fff;
+}
+
+#topButtons > button {
+  background-color: brown;
+  color: #fff;
+}
+
+#equal {
+  flex-grow: 1;
+}

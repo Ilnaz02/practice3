@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="img/icon_calc.svg" type="image/x-icon">
+    <title>Калькулятор</title>
+</head>
+<body>
+    <div id="container" class="container">
+        <div id="calc">
+            <div class="cal-box">
+                <div id="display"><p id=display-value type="number"></p></div>
+                <div id="input"><p id=input-value type="number"></p></div>
+
+                <div id="btns">
+                    <div id="topButtons">
+                    <button class="operator" id="addtoMemory">MS</button>
+                    <button class="operator" id="recallFromMemory">MR</button>
+                    <button class="operator" id="clear">C</button>
+                    <button class="operator" id="backspace">CE</button>
+                    </div>
+
+                    <div id="bottomButtons">
+                    <button class="number" id="7">7</button>
+                    <button class="number" id="8">8</button>
+                    <button class="number" id="9">9</button>
+                    
+                    <button class="operator" id="/">&#247;</button>
+                    <button class="number" id="4">4</button>
+                    <button class="number" id="5">5</button>
+                    <button class="number" id="6">6</button>
+                    
+                    <button class="operator" id="*">&times;</button>
+                    <button class="number" id="1">1</button>
+                    <button class="number" id="2">2</button>
+                    <button class="number" id="3">3</button>
+                    
+                    <button class="operator" id="+">+</button>
+                    
+                    <button class="number" id="0">0</button>                    
+                    <button class="operator" id="equal">=</button>
+                    <button class="operator" id="-">-</button>                                                                                         
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
